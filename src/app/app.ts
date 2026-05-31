@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-
 import { Navbar } from './components/navbar/navbar';
 import { Home } from './components/home/home';
 import { About } from './components/about/about';
 import { Skills } from './components/skills/skills';
 import { Projects } from './components/projects/projects';
 import { Contact } from './components/contact/contact';
-import { Footer } from './components/footer/footer';
+import { FooterComponent } from './components/footer/footer';
 
 @Component({
   selector: 'app-root',
@@ -18,9 +17,9 @@ import { Footer } from './components/footer/footer';
     Skills,
     Projects,
     Contact,
-    Footer
+     FooterComponent
   ],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+ styleUrls: ['./app.css']
 })
 export class App {}

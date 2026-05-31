@@ -16,3 +16,13 @@ ul {
 li {
   cursor: pointer;
 }
+.logo {
+  margin: 0;
+  font-size: 28px;
+}
+
+.icon {
+  font-size: 55px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
